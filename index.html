@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SCRATCHbread.COUNTER</title>
+
+    <meta charset="utf-8" />
+    <meta name="author" content="Jeffrey Lan for SCRATCHbread" />
+    <meta
+      name="description"
+      content="You SCRATCH my bread, I'll SCRATCH yours"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body class="bg-cover bg-sandwich flex-column">
+    <div class="app">
+      <header
+        class="flex-column flex-wrap bg-top-grad
+      st-p2rem st-t1-5em fixed-hed"
+      >
+        <div class="flex-column just-center" id="logo-info">
+          <div class="flex-row just-spc-btwn mo-mt2rem">
+            <img
+              src="images/SCRATCHbread-logo-v3.png"
+              id="logo"
+              class="logo"
+              alt="SCRATCHbread logo"
+            />
+            <i class="material-icons hamburger text-white mo-only">
+              menu
+            </i>
+            <h1
+              class="text-white text-right dt-w dt-only dt-text-tight"
+              id="slogan"
+            >
+              You SCRATCH my bread,<br />I'll SCRATCH yours
+            </h1>
+            <nav
+              class="text-xbold text-white text-center
+              st-only lt-only"
+              id="links-internal"
+            >
+              <ul class="flex-column my0 dt-nav">
+                <a href="#menu" class="text-1-3em text-white">menu</a>
+                <a href="#about" class="text-1-3em text-white">about</a>
+                <a href="#press" class="text-1-3em text-white">press</a>
+              </ul>
+            </nav>
+          </div>
+          <nav
+            class="mo-nav text-xbold flex-column text-white text-center nav-box p0-5rem hidden"
+            id="links-internal"
+          >
+            <a href="#menu" class="text-white">menu</a>
+            <a href="#about" class="text-white">about</a>
+            <a href="#press" class="text-white">press</a>
+          </nav>
+          <nav
+            class="text-xbold text-white text-center
+                 dt-only"
+            id="links-internal"
+          >
+            <ul class="flex-row my0 dt-nav">
+              <a href="#menu" class="text-1-3em text-white">menu</a>
+              <a href="#about" class="text-1-3em text-white">about</a>
+              <a href="#press" class="text-1-3em text-white">press</a>
+            </ul>
+          </nav>
+          <div
+            class="text-white text-xbold flex-row text-center just-spc-btwn
+            mo-only"
+            id="vitals"
+          >
+            <p class="my0 text-center p0-5rem">
+              <span class="address">1069 Bedford Ave, Brooklyn, NY 11216</span>
+            </p>
+            <p class="my0 flex-column text-center p0-5rem">
+              <span>917.803.5773</span> <span>8 AM-4 PM daily</span>
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <main class="flex-rowreverse">
+        <div
+          class="main-content bg-translucent 
+        st-w lt-w st-mt12 dt-top"
+        >
+          <i class="material-icons text-white hidden scroll-up">
+            keyboard_arrow_up
+          </i>
+          <a class="st-a-offset" id="menu"></a>
+          <h1
+            class="text-center text-3em dt-text-4em mo-only st-only lt-only"
+            id="slogan"
+          >
+            You SCRATCH my bread, I'll SCRATCH yours
+          </h1>
+          <section>
+            <div
+              class="flex-column just-spc-btwn menu-section collapse-expand collapsed"
+            ></div>
+          </section>
+          <div class="flex-row just-center">
+            <button class="collapse-button p0-5rem">Expand Menu</button>
+          </div>
+          <section class="p0-5rem">
+            <a class="st-a-offset" id="about"></a>
+            <h1 class="text-center text-3em">
+              “I want to simplify food
+            </h1>
+            <blockquote class="text-1-25em">
+              ...and I want to finally help paint a proper, identifiable food
+              culture here in the States.
+              <span class="text-xbold">Word to Brooklyn.</span> As Brooklyn
+              culture continues to expand, we as a collective group need to rock
+              confidence in deliciousness, care in choices, and consistency in
+              standards.”
+            </blockquote>
+            <p class="text-right text-italic">&#x2014; Matthew Tilden, chef</p>
+            <div class="vimeo m1rem mo-only st-only">
+              <iframe
+                src="https://player.vimeo.com/video/7163527"
+                width="100%"
+                height="270"
+                frameborder="0"
+                allow="autoplay; fullscreen"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="vimeo m1rem lt-only dt-only">
+              <iframe
+                src="https://player.vimeo.com/video/7163527"
+                width="100%"
+                height="480"
+                frameborder="0"
+                allow="autoplay; fullscreen"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </section>
+
+          <section class="press flex-column p0-5rem">
+            <a class="st-a-offset" id="press"></a>
+
+            <h1 class="text-center text-3em">SCRATCHpress</h1>
+            <div
+              class="quote text-1-25em text-xbold text-right st-t1-5em serious"
+            >
+              <p class="my0">“There’s no other bakery like it in the city.”</p>
+              <span class="text-gold text-0-75em">&#x2014; </span
+              ><a
+                href="https://newyork.seriouseats.com/2011/07/good-bread-scratch-bread.html"
+                target="_blank"
+                >Serious Eats</a
+              >
+            </div>
+            <div
+              class="quote text-1-25em text-xbold my2rem text-left st-t1-5em edible"
+            >
+              <p class="my0">
+                “There are few days that go by when I don’t want to bike over
+                from Crown Heights for a veggie flatbread”
+              </p>
+              <span class="text-gold text-0-75em">&#x2014; </span
+              ><a
+                href="https://www.ediblebrooklyn.com/2016/scratchbread/"
+                target="_blank"
+                >edible Brooklyn</a
+              >
+            </div>
+            <div
+              class="quote text-1-25em text-xbold text-right st-t1-5em bkpaper"
+            >
+              <p class="my0">
+                “...the dreamiest sourdough you’ve ever tasted.”
+              </p>
+              <span class="text-gold text-0-75em">&#x2014; </span
+              ><a
+                href="https://www.brooklynpaper.com/from-scratch-obsessive-breadsmith-plots-his-next-move-2/"
+                target="_blank"
+                >Brooklyn Paper</a
+              >
+            </div>
+          </section>
+          <div class="st-spacer"></div>
+        </div>
+      </main>
+
+      <footer class="flex-column text-center flex-rowreverse">
+        <div class="bg-btm-grad text-dkgray dt-just-right st-w lt-w">
+          <div class="text-xbold text-1-3em">
+            <p class="my0">follow us</p>
+            <nav class="">
+              <a
+                href="https://www.facebook.com/SCRATCHbread"
+                class="text-gold"
+                target="_blank"
+                >Facebook </a
+              >&#x2731;
+              <a
+                href="https://instagram.com/scratchbread/"
+                class="text-gold"
+                target="_blank"
+              >
+                Instagram </a
+              >&#x2731;
+              <a
+                href="https://twitter.com/SCRATCHbread"
+                class="text-gold"
+                target="_blank"
+              >
+                Twitter</a
+              >
+            </nav>
+          </div>
+          <div class="signup">
+            <p class="">get SCRATCHupdates in your email!</p>
+            <form
+              action="http://ineedsubstance.createsend.com/t/r/s/jukkih/"
+              method="post"
+              id="subForm"
+            >
+              <div>
+                <input
+                  type="text"
+                  placeholder="your email address"
+                  name="cm-jukkih-jukkih"
+                  class="subscribe"
+                  id="jukkih-jukkih"
+                  data-kwimpalastatus="alive"
+                  data-kwimpalaid="1574027823074-2"
+                />
+                <input
+                  type="submit"
+                  class="bg-brown text-white p0-5rem"
+                  value="SIGN ME UP!"
+                />
+              </div>
+            </form>
+          </div>
+          <p id="copyright" class="">
+            Copyright © - All Rights Reserved. SPORKconcepts 2019
+          </p>
+        </div>
+      </footer>
+
+      <!-- <footer class="flex-row st-just-right st-w foot-pos">
+        <div
+          class="flex-column align-center text-center text-dkgray bg-btm-grad
+        "
+        >
+          <div class="p0-5rem m1rem">
+            <p class="text-1-25em text-xbold">follow us</p>
+            <nav class="flex-row just-spc-btwn text1-25em text-xbold">
+              &#x2731;<a href="#" class="text-gold">Facebook</a>&#x2731;
+              <a href="#" class="text-gold">Instagram</a>&#x2731;
+              <a href="#" class="text-gold">Twitter</a>&#x2731;
+            </nav>
+          </div>
+          <div class="signup">
+            <p class="text-center">get SCRATCHupdates in your email!</p>
+            <form
+              action="http://ineedsubstance.createsend.com/t/r/s/jukkih/"
+              method="post"
+              id="subForm"
+            >
+              <div>
+                <input
+                  type="text"
+                  placeholder="your email address"
+                  name="cm-jukkih-jukkih"
+                  class="subscribe"
+                  id="jukkih-jukkih"
+                  data-kwimpalastatus="alive"
+                  data-kwimpalaid="1574027823074-2"
+                />
+                <input
+                  type="submit"
+                  class="bg-brown text-white p0-5rem"
+                  value="SIGN ME UP!"
+                />
+              </div>
+            </form>
+          </div>
+          <p id="copyright" class="text-center">
+            Copyright © - All Rights Reserved. SPORKconcepts 2019
+          </p>
+        </div>
+      </footer> -->
+      <div class="vitals st-only lt-only dt-only">
+        <ul class="st-vitals">
+          <li>1069 Bedford Ave</li>
+          <li>Brooklyn, NY 11216</li>
+          <li>917.803.5773</li>
+          <li>8 AM-4 PM daily</li>
+        </ul>
+      </div>
+      <script type="text/javascript" src="js/store-menu.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
+    </div>
+  </body>
+</html>
